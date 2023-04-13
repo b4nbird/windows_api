@@ -10,7 +10,7 @@
 using namespace std;
 
 
-//判断是否管理员权限
+//check is admininstrator privilege
 BOOL IsElevatedProcess()
 {
 	BOOL is_elevated = FALSE;
@@ -115,7 +115,7 @@ string getHostname() {
 	return stringcompname;
 }
 
-
+//generate the output filename
 string getFileName(string hostname) {
 	// Extension of the file
 	string extension = ".txt";
